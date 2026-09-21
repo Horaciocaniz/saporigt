@@ -37,7 +37,7 @@
 
             const featuredProducts = window.productos.filter(function (product) {
                 return product.destacado;
-            }).slice(0, 4);
+            }).slice(0, 6);
 
             if (!featuredProducts.length) {
                 container.innerHTML = '<p class="empty-state">Próximamente tendremos productos destacados.</p>';

@@ -1,9 +1,0 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Alfajores">
-  <rect width="640" height="420" fill="#F8F0E7"/>
-  <g transform="translate(104 80)">
-    <ellipse cx="125" cy="155" rx="118" ry="66" fill="#D99559"/>
-    <ellipse cx="315" cy="155" rx="118" ry="66" fill="#D99559"/>
-    <ellipse cx="220" cy="135" rx="150" ry="88" fill="#F5D8A3"/>
-  </g>
-  <text x="320" y="355" text-anchor="middle" font-size="36" font-family="Arial, Helvetica, sans-serif" font-weight="700" fill="#8C4830">Alfajores</text>
-</svg>
