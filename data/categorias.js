@@ -4,3 +4,6 @@
     { id: "reposteria", nombre: "Repostería" },
     { id: "postres", nombre: "Postres" }
 ];
+
+window.categorias = categorias;
+

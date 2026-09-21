@@ -90,3 +90,6 @@
         destacado: false
     }
 ];
+
+window.productos = productos;
+
