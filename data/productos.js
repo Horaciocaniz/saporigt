@@ -7,7 +7,7 @@
         imagen: "assets/img/productos/polvorosa.svg",
         descripcion: "Deliciosa polvorosa artesanal, suave, crujiente y hecha para compartir.",
         disponible: true,
-        destacado: true
+        destacado: false
     },
     {
         id: "alfajor-01",
