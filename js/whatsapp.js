@@ -5,7 +5,7 @@
         phoneNumber: WHATSAPP_NUMBER,
         buildMessage: function (productName, price, userText) {
             const text = [
-                'Hola, Sapori 👋',
+                'Hola, Sapori',
                 '',
                 'Me interesa este producto:',
                 productName,
