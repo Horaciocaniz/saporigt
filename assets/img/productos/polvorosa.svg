@@ -1,0 +1,12 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Polvorosa">
+  <rect width="640" height="420" fill="#F8F0E7"/>
+  <ellipse cx="320" cy="250" rx="208" ry="118" fill="#E7C79A"/>
+  <ellipse cx="320" cy="220" rx="172" ry="96" fill="#BFAE9F"/>
+  <g fill="#F5E1C5">
+    <ellipse cx="250" cy="218" rx="28" ry="18"/>
+    <ellipse cx="298" cy="190" rx="28" ry="18"/>
+    <ellipse cx="344" cy="212" rx="26" ry="18"/>
+    <ellipse cx="395" cy="196" rx="30" ry="19"/>
+  </g>
+  <text x="320" y="355" text-anchor="middle" font-size="36" font-family="Arial, Helvetica, sans-serif" font-weight="700" fill="#8C4830">Polvorosa</text>
+</svg>

@@ -1,0 +1,4 @@
+﻿@media (min-width: 768px) {
+    .hero-grid { grid-template-columns: 1.05fr 0.95fr; }
+    .page-header .container { max-width: 720px; }
+}

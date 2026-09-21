@@ -1,0 +1,8 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 760" role="img" aria-label="Pasteles y pan artesanal">
+  <rect width="960" height="760" rx="32" fill="#FBF3EA"/>
+  <circle cx="260" cy="180" r="120" fill="#F2B56B" opacity="0.25"/>
+  <circle cx="700" cy="180" r="130" fill="#D99559" opacity="0.18"/>
+  <rect x="160" y="250" width="640" height="330" rx="36" fill="#F7E5D0"/>
+  <path d="M290 530c0-93 66-154 153-154 98 0 160 74 160 164 0 65-35 112-92 139-80 38-177-10-221-149zm157-87c-43 0-73 29-73 68 0 38 30 72 78 72 47 0 82-34 82-76 0-40-31-64-87-64z" fill="#8C4830" opacity="0.92"/>
+  <path d="M526 502c0-62 39-109 92-109 53 0 93 45 93 107 0 60-40 99-96 99-54 0-89-46-89-97z" fill="#BF6734" opacity="0.82"/>
+</svg>
