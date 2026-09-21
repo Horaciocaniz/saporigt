@@ -12,7 +12,7 @@
             <div class="product-detail__empty">
                 <h2>Producto no encontrado</h2>
                 <p>No pudimos encontrar este producto en nuestro catálogo.</p>
-                <a class="button button--primary" href="catalogo.html">Volver al catálogo</a>
+                <a class="btn btn-primary rounded-pill px-4" href="catalogo.html">Volver al catálogo</a>
             </div>
         `;
     }
@@ -22,7 +22,7 @@
         if (!container) return;
 
         const orderButton = product.disponible
-            ? '<button class="button button--primary" type="button" data-order-button>Quiero pedirlo</button>'
+            ? '<button class="btn btn-primary rounded-pill px-4" type="button" data-order-button>Quiero pedirlo</button>'
             : '<span class="status-badge status-badge--offline">NO DISPONIBLE</span>';
 
         container.innerHTML = `
@@ -38,7 +38,7 @@
                     <p class="product-detail__description">${product.descripcion}</p>
                     <div class="product-detail__actions">
                         ${orderButton}
-                        <a class="button button--secondary" href="catalogo.html">Volver al catálogo</a>
+                        <a class="btn btn-outline-primary rounded-pill px-4" href="catalogo.html">Volver al catálogo</a>
                     </div>
                 </div>
             </article>

@@ -19,20 +19,20 @@
 
     function createCard(product) {
         return `
-            <article class="product-card">
-                <a href="producto.html?id=${product.id}" class="product-card__link" aria-label="Ver producto ${product.nombre}">
-                    <img src="${product.imagen}" alt="${product.nombre}" loading="lazy" />
-                    <div class="product-card__body">
-                        <div class="product-card__meta">
-                            <span>${window.SaporiApp.getCategoryName(product.categoria)}</span>
-                            <span class="product-card__status ${product.disponible ? 'is-available' : 'is-unavailable'}">${product.disponible ? 'Disponible' : 'No disponible'}</span>
+            <article class="product-card card h-100 border-0 shadow-sm">
+                <a href="producto.html?id=${product.id}" class="product-card__link text-decoration-none" aria-label="Ver producto ${product.nombre}">
+                    <img src="${product.imagen}" alt="${product.nombre}" loading="lazy" class="card-img-top" />
+                    <div class="card-body p-3">
+                        <div class="d-flex justify-content-between align-items-center gap-2 mb-2">
+                            <span class="small text-uppercase fw-semibold text-body-secondary">${window.SaporiApp.getCategoryName(product.categoria)}</span>
+                            <span class="badge rounded-pill ${product.disponible ? 'bg-success-subtle text-success' : 'bg-secondary-subtle text-secondary'}">${product.disponible ? 'Disponible' : 'No disponible'}</span>
                         </div>
-                        <h3>${product.nombre}</h3>
-                        <p class="product-card__price">${window.SaporiApp.formatPrice(product.precio)}</p>
-                        <p>${product.descripcion}</p>
-                        <div class="product-card__cta-row">
-                            <span class="button button--secondary">Ver producto</span>
-                            ${product.disponible ? '<span class="button button--primary">Quiero pedirlo</span>' : '<span class="button button--ghost" aria-disabled="true">No disponible</span>'}
+                        <h3 class="h5 mb-2 text-dark">${product.nombre}</h3>
+                        <p class="product-card__price mb-2">${window.SaporiApp.formatPrice(product.precio)}</p>
+                        <p class="mb-2 text-body-secondary">${product.descripcion}</p>
+                        <div class="product-card__cta-row mt-3">
+                            <span class="btn btn-outline-primary btn-sm rounded-pill">Ver producto</span>
+                            ${product.disponible ? '<span class="btn btn-primary btn-sm rounded-pill">Quiero pedirlo</span>' : '<span class="btn btn-secondary btn-sm rounded-pill disabled">No disponible</span>'}
                         </div>
                     </div>
                 </a>
