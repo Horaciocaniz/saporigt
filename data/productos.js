@@ -33,7 +33,7 @@
     {
         id: "corona-bollos-03",
         nombre: "Corona de Bollos",
-        categoria: "panaderia",
+        categoria: "temporada",
         precio: 22,
         imagen: "assets/img/productos/CoronaBollos.JPG",
         descripcion: "Corona de bollos suave y aromática, ideal para compartir en la mesa.",
@@ -43,7 +43,7 @@
     {
         id: "zepelin-navideno-04",
         nombre: "Zepelin Navideño",
-        categoria: "panaderia",
+        categoria: "temporada",
         precio: 35,
         imagen: "assets/img/productos/ZepelinNavideño.png",
         descripcion: "Zepelin navideño tradicional con sabor festivo y textura esponjosa.",
@@ -87,7 +87,7 @@
     {
         id: "galleta-jengibre-08",
         nombre: "Galleta de Jengibre",
-        categoria: "galletas",
+        categoria: "temporada",
         precio: 15,
         imagen: "assets/img/productos/NoImage.jpg",
         descripcion: "Galleta de jengibre con sabor intenso y textura crocante.",
@@ -186,7 +186,7 @@
     {
         id: "Bomba-de-Chocolate-17",
         nombre: "Bomba de Chocolate",
-        categoria: "reposteria",
+        categoria: "temporada",
         precio: 20,
         imagen: "assets/img/productos/NoImage.jpg",
         descripcion: "Chocolate relleno de cocoa dulce y marshmallows.",
@@ -340,7 +340,7 @@
     {
         id: "Casa-de-Jengibre-31",
         nombre: "Casa de Jengibre",
-        categoria: "reposteria",
+        categoria: "temporada",
         precio: 20,
         imagen: "assets/img/productos/NoImage.jpg",
         descripcion: "Casa elaborada con galleta de jengibre crocante y sabor intenso.",
@@ -351,7 +351,7 @@
     {
         id: "Casa-de-Chocolate-32",
         nombre: "Casa de Chocolate",
-        categoria: "reposteria",
+        categoria: "temporada",
         precio: 20,
         imagen: "assets/img/productos/NoImage.jpg",
         descripcion: "Casa elaborada con chocolate.",

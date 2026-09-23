@@ -2,7 +2,7 @@
     { id: "panaderia", nombre: "Panadería" },
     { id: "galletas", nombre: "Galletas" },
     { id: "reposteria", nombre: "Repostería" },
-    { id: "postres", nombre: "Postres" }
+    { id: "temporada", nombre: "Navidad" }
 ];
 
 window.categorias = categorias;
