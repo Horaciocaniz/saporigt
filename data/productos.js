@@ -15,7 +15,7 @@
         nombre: "Alfajor Decorado",
         categoria: "galletas",
         precio: 25,
-        imagen: "assets/img/productos/AlfajorNavidad.JPG",
+        imagen: "assets/img/productos/AlfajoresNavidad.JPG",
         descripcion: "Alfajor artesanal relleno con dulce de leche decorado de Navidad.",
         disponible: true,
         destacado: true
@@ -89,7 +89,7 @@
         nombre: "Galleta de Jengibre",
         categoria: "temporada",
         precio: 15,
-        imagen: "assets/img/productos/NoImage.jpg",
+        imagen: "assets/img/productos/GalletaJengibre.JPG",
         descripcion: "Galleta de jengibre con sabor intenso y textura crocante.",
         disponible: true,
         destacado: true
