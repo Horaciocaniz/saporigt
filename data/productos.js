@@ -28,7 +28,7 @@
         imagen: "assets/img/productos/AlfajoresChocolate.png",
         descripcion: "Alfajor húmedo y cubierto con chocolate para un sabor intenso y balanceado.",
         disponible: true,
-        destacado: true
+        destacado: false
     },
     {
         id: "corona-bollos-03",
@@ -67,7 +67,7 @@
         imagen: "assets/img/productos/NoImage.jpg",
         descripcion: "Galleta de avena nutriente y deliciosa.",
         disponible: true,
-        destacado: true
+        destacado: false
     }, 
 
     {
@@ -78,7 +78,7 @@
         imagen: "assets/img/productos/Polvorosa.jpeg",
         descripcion: "Polovorosa deliciosa y textura suave.",
         disponible: true,
-        destacado: true
+        destacado: false
     }, 
 
     {
@@ -89,7 +89,7 @@
         imagen: "assets/img/productos/GalletaNewYork.jpeg",
         descripcion: "Galleta tipo New York con textura esponjosa y sabor delicioso.",
         disponible: true,
-        destacado: true
+        destacado: false
     }, 
 
     {
@@ -103,7 +103,7 @@
         ],
         descripcion: "Galleta de jengibre con sabor intenso y textura crocante.",
         disponible: true,
-        destacado: true
+        destacado: false
     }, 
 
     {
@@ -114,7 +114,7 @@
         imagen: "assets/img/productos/NoImage.jpg",
         descripcion: "Bolitas de colores con sabor dulce y textura suave.",
         disponible: true,
-        destacado: true
+        destacado: false
     }, 
 
     {
@@ -125,7 +125,7 @@
         imagen: "assets/img/productos/NoImage.jpg",
         descripcion: "Empanada salada con relleno delicioso y corteza crujiente.",
         disponible: true,
-        destacado: true
+        destacado: false
     }, 
 
     {
@@ -151,7 +151,7 @@
         imagen: "assets/img/productos/PieDulce.jpeg",
         descripcion: "Pie dulce con relleno delicioso y corteza crujiente. Rellenos: Manzana, Piña, Queso, Calabaza",
         disponible: true,
-        destacado: true
+        destacado: false
     }, 
 
     {
@@ -162,7 +162,7 @@
         imagen: "assets/img/productos/NoImage.jpg",
         descripcion: "Rol de corteza crujiente con relleno de canela.",
         disponible: true,
-        destacado: true
+        destacado: false
     }, 
 
     {
@@ -173,7 +173,7 @@
         imagen: "assets/img/productos/NoImage.jpg",
         descripcion: "Pasteles de hojaldre.",
         disponible: true,
-        destacado: true
+        destacado: false
     }, 
 
     {
@@ -184,7 +184,7 @@
         imagen: "assets/img/productos/NoImage.jpg",
         descripcion: "Tartaletas con relleno delicioso y corteza crujiente.",
         disponible: true,
-        destacado: true
+        destacado: false
     }, 
 
     {
@@ -195,7 +195,7 @@
         imagen: "assets/img/productos/NoImage.jpg",
         descripcion: "Cupcakes decorados.",
         disponible: true,
-        destacado: true
+        destacado: false
     }, 
 
     {
@@ -206,7 +206,7 @@
         imagen: "assets/img/productos/ChocoBomba.jpeg",
         descripcion: "Chocolate relleno de cocoa dulce y marshmallows.",
         disponible: true,
-        destacado: true
+        destacado: false
     }, 
 
     {
@@ -217,7 +217,7 @@
         imagen: "assets/img/productos/BarraChocolate.jpeg",
         descripcion: "Barra de chocolate con semillas.",
         disponible: true,
-        destacado: true
+        destacado: false
     }, 
 
     {
@@ -274,6 +274,9 @@
         categoria: "panaderia",
         precio: 20,
         imagen: "assets/img/productos/Champurrada.jpeg",
+        imagenes: [
+            "assets/img/productos/Champurrada2.jpeg"
+        ],
         descripcion: "Pan dulce tradicional, redondo, con consistencia tostada y crujiente.",
         disponible: true,
         destacado: true
@@ -328,7 +331,11 @@
         nombre: "Pan de Banano",
         categoria: "panaderia",
         precio: 20,
-        imagen: "assets/img/productos/NoImage.jpg",
+        imagen: "assets/img/productos/PanBanano.jpeg",
+        imagenes: [
+            "assets/img/productos/PanBanano2.jpeg",
+            "assets/img/productos/PanBanano3.jpeg"
+        ],
         descripcion: "Pan esponjoso preparado con bananos frescos, Consistencia humeda, miga suave y dulzor natural.",
         disponible: true,
         destacado: true
