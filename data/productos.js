@@ -16,6 +16,11 @@
         categoria: "galletas",
         precio: 25,
         imagen: "assets/img/productos/AlfajoresNavidad.JPG",
+        imagenes: [
+            "assets/img/productos/AlfajorDecorado2.JPG",
+            "assets/img/productos/AlfajorDecorado3.JPG",
+            "assets/img/productos/AlfajorDecorado4.JPG"
+        ],
         descripcion: "Alfajor artesanal relleno con dulce de leche decorado de Navidad.",
         disponible: true,
         destacado: true
