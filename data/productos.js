@@ -36,6 +36,10 @@
         categoria: "temporada",
         precio: 22,
         imagen: "assets/img/productos/CoronaBollos.JPG",
+        imagenes: [
+            "assets/img/productos/CoronaBollos2.JPG",
+            "assets/img/productos/CoronaBollos3.JPG"
+        ],
         descripcion: "Corona de bollos suave y aromática, ideal para compartir en la mesa.",
         disponible: true,
         destacado: true
@@ -145,7 +149,7 @@
         categoria: "reposteria",
         precio: 20,
         imagen: "assets/img/productos/PieDulce.jpeg",
-        descripcion: "Pie dulce con relleno delicioso y corteza crujiente. Rellenos: Manzana, Piña, Quezo, Calabaza",
+        descripcion: "Pie dulce con relleno delicioso y corteza crujiente. Rellenos: Manzana, Piña, Queso, Calabaza",
         disponible: true,
         destacado: true
     }, 
@@ -357,7 +361,11 @@
         nombre: "Casa de Jengibre",
         categoria: "temporada",
         precio: 20,
-        imagen: "assets/img/productos/NoImage.jpg",
+        imagen: "assets/img/productos/CasaJengibre.png",
+        imagenes: [
+            "assets/img/productos/CasaJengibre2.png",
+            "assets/img/productos/CasaJengibre3.jpeg"
+        ],
         descripcion: "Casa elaborada con galleta de jengibre crocante y sabor intenso.",
         disponible: true,
         destacado: true
