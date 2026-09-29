@@ -46,6 +46,10 @@
         categoria: "temporada",
         precio: 35,
         imagen: "assets/img/productos/ZepelinNavideño.png",
+        imagenes: [
+            "assets/img/productos/ZepelinNavideño2.JPG",
+            "assets/img/productos/ZepelinNavideño3.JPG"
+        ],
         descripcion: "Zepelin navideño tradicional con sabor festivo y textura esponjosa.",
         disponible: true,
         destacado: true
@@ -67,7 +71,7 @@
         nombre: "Polovorosa",
         categoria: "galletas",
         precio: 15,
-        imagen: "assets/img/productos/NoImage.jpg",
+        imagen: "assets/img/productos/Polvorosa.jpeg",
         descripcion: "Polovorosa deliciosa y textura suave.",
         disponible: true,
         destacado: true
@@ -78,7 +82,7 @@
         nombre: "Galleta Tipo New York",
         categoria: "galletas",
         precio: 15,
-        imagen: "assets/img/productos/NoImage.jpg",
+        imagen: "assets/img/productos/GalletaNewYork.jpeg",
         descripcion: "Galleta tipo New York con textura esponjosa y sabor delicioso.",
         disponible: true,
         destacado: true
@@ -90,6 +94,9 @@
         categoria: "temporada",
         precio: 15,
         imagen: "assets/img/productos/GalletaJengibre.JPG",
+        imagenes: [
+            "assets/img/productos/GalletaJengibre2.png"
+        ],
         descripcion: "Galleta de jengibre con sabor intenso y textura crocante.",
         disponible: true,
         destacado: true
@@ -122,7 +129,11 @@
         nombre: "Empanada de Leche",
         categoria: "reposteria",
         precio: 20,
-        imagen: "assets/img/productos/NoImage.jpg",
+        imagen: "assets/img/productos/EmpanadaLeche.jpeg",
+        imagenes: [
+            "assets/img/productos/EmpanadaLeche2.jpeg",
+            "assets/img/productos/EmpanadaLeche3.jpeg"
+            ],
         descripcion: "Empanada de leche con relleno cremoso y corteza crujiente.",
         disponible: true,
         destacado: true
@@ -133,7 +144,7 @@
         nombre: "Pie Dulce",
         categoria: "reposteria",
         precio: 20,
-        imagen: "assets/img/productos/NoImage.jpg",
+        imagen: "assets/img/productos/PieDulce.jpeg",
         descripcion: "Pie dulce con relleno delicioso y corteza crujiente. Rellenos: Manzana, Piña, Quezo, Calabaza",
         disponible: true,
         destacado: true
@@ -188,7 +199,7 @@
         nombre: "Bomba de Chocolate",
         categoria: "temporada",
         precio: 20,
-        imagen: "assets/img/productos/NoImage.jpg",
+        imagen: "assets/img/productos/ChocoBomba.jpeg",
         descripcion: "Chocolate relleno de cocoa dulce y marshmallows.",
         disponible: true,
         destacado: true
@@ -199,7 +210,7 @@
         nombre: "Barra con Semillas",
         categoria: "reposteria",
         precio: 20,
-        imagen: "assets/img/productos/NoImage.jpg",
+        imagen: "assets/img/productos/BarraChocolate.jpeg",
         descripcion: "Barra de chocolate con semillas.",
         disponible: true,
         destacado: true
@@ -210,7 +221,11 @@
         nombre: "Espumillas de Menta",
         categoria: "reposteria",
         precio: 20,
-        imagen: "assets/img/productos/NoImage.jpg",
+        imagen: "assets/img/productos/Espumillas.jpeg",
+        imagenes: [
+            "assets/img/productos/Espumillas2.jpeg"
+            
+        ],
         descripcion: "Merengue frances con sabor a menta",
         disponible: true,
         destacado: true
@@ -221,7 +236,7 @@
         nombre: "Corona de Reyes",
         categoria: "panaderia",
         precio: 20,
-        imagen: "assets/img/productos/NoImage.jpg",
+        imagen: "assets/img/productos/RoscaReyes.jpeg",
         descripcion: "Pan dulce tradicional para celebrar el Día de Reyes, con figura del Niño Jesus.",
         disponible: true,
         destacado: true
@@ -232,7 +247,7 @@
         nombre: "Pan de Muerto",
         categoria: "panaderia",
         precio: 20,
-        imagen: "assets/img/productos/NoImage.jpg",
+        imagen: "assets/img/productos/PanMuerto.jpeg",
         descripcion: "Pan dulce tradicional con textura suave sabor a naranja cubierto de azúcar.",
         disponible: true,
         destacado: true
@@ -254,7 +269,7 @@
         nombre: "Champurrada",
         categoria: "panaderia",
         precio: 20,
-        imagen: "assets/img/productos/NoImage.jpg",
+        imagen: "assets/img/productos/Champurrada.jpeg",
         descripcion: "Pan dulce tradicional, redondo, con consistencia tostada y crujiente.",
         disponible: true,
         destacado: true
@@ -276,7 +291,7 @@
         nombre: "Pan en Molde",
         categoria: "panaderia",
         precio: 20,
-        imagen: "assets/img/productos/NoImage.jpg",
+        imagen: "assets/img/productos/PanMolde.jpeg",
         descripcion: "Pan blanco tradicional con forma de molde y corteza crujiente.",
         disponible: true,
         destacado: true

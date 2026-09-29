@@ -24,11 +24,16 @@
         const orderButton = product.disponible
             ? '<button class="btn btn-primary rounded-pill px-4" type="button" data-order-button>Quiero pedirlo</button>'
             : '<span class="status-badge status-badge--offline">NO DISPONIBLE</span>';
+        const extraImages = Array.isArray(product.imagenes) ? product.imagenes : [];
+        const images = [product.imagen, ...extraImages];
+        const productMedia = extraImages.length
+            ? `<div id="product-image-carousel" class="carousel slide"><div class="carousel-inner">${images.map(function (image, index) { return `<div class="carousel-item ${index === 0 ? 'active' : ''}"><img src="${image}" alt="${product.nombre} - imagen ${index + 1}" /></div>`; }).join('')}</div><button class="carousel-control-prev" type="button" data-bs-target="#product-image-carousel" data-bs-slide="prev" aria-label="Imagen anterior"><span class="carousel-control-prev-icon" aria-hidden="true"></span></button><button class="carousel-control-next" type="button" data-bs-target="#product-image-carousel" data-bs-slide="next" aria-label="Imagen siguiente"><span class="carousel-control-next-icon" aria-hidden="true"></span></button></div>`
+            : `<img src="${product.imagen}" alt="${product.nombre}" />`;
 
         container.innerHTML = `
             <article class="product-detail">
                 <div class="product-detail__media">
-                    <img src="${product.imagen}" alt="${product.nombre}" />
+                    ${productMedia}
                 </div>
                 <div class="product-detail__content">
                     <div class="product-detail__eyebrow">${window.SaporiApp.getCategoryName(product.categoria)}</div>
