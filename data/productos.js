@@ -4,9 +4,9 @@
         id: "alfajor-01",
         nombre: "Alfajor",
         categoria: "galletas",
-        precio: 14,
+        precio: 25,
         imagen: "assets/img/productos/Alfajores.png",
-        descripcion: "Alfajor artesanal relleno con dulce de leche y textura suave.",
+        descripcion: "8 onz de Alfajores artesanal relleno con dulce de leche y textura suave.",
         disponible: true,
         destacado: true
     },
@@ -29,17 +29,17 @@
         id: "alfajor-chocolate-02",
         nombre: "Alfajor bañado en chocolate",
         categoria: "galletas",
-        precio: 18,
+        precio: 0,
         imagen: "assets/img/productos/AlfajoresChocolate.png",
         descripcion: "Alfajor húmedo y cubierto con chocolate para un sabor intenso y balanceado.",
-        disponible: true,
+        disponible: false,
         destacado: false
     },
     {
         id: "corona-bollos-03",
         nombre: "Corona de Bollos",
         categoria: "temporada",
-        precio: 22,
+        precio: 50,
         imagen: "assets/img/productos/CoronaBollos.JPG",
         imagenes: [
             "assets/img/productos/CoronaBollos2.JPG",
@@ -53,7 +53,7 @@
         id: "zepelin-navideno-04",
         nombre: "Zepelin Navideño",
         categoria: "temporada",
-        precio: 35,
+        precio: 75,
         imagen: "assets/img/productos/ZepelinNavideño.png",
         imagenes: [
             "assets/img/productos/ZepelinNavideño2.JPG",
@@ -68,10 +68,10 @@
         id: "galleta-avena-05",
         nombre: "Galleta de Avena",
         categoria: "galletas",
-        precio: 15,
+        precio: 0,
         imagen: "assets/img/productos/NoImage.jpg",
         descripcion: "Galleta de avena nutriente y deliciosa.",
-        disponible: true,
+        disponible: false,
         destacado: false
     }, 
 
@@ -79,10 +79,10 @@
         id: "polovorosa-06",
         nombre: "Polovorosa",
         categoria: "galletas",
-        precio: 15,
+        precio: 0,
         imagen: "assets/img/productos/Polvorosa.jpeg",
         descripcion: "Polovorosa deliciosa y textura suave.",
-        disponible: true,
+        disponible: false,
         destacado: false
     }, 
 
@@ -90,7 +90,7 @@
         id: "galleta-newyork-07",
         nombre: "Galleta Tipo New York",
         categoria: "galletas",
-        precio: 15,
+        precio: 40,
         imagen: "assets/img/productos/GalletaNewYork.jpeg",
         descripcion: "Galleta tipo New York con textura esponjosa y sabor delicioso.",
         disponible: true,
@@ -101,12 +101,12 @@
         id: "galleta-jengibre-08",
         nombre: "Galleta de Jengibre",
         categoria: "temporada",
-        precio: 15,
+        precio: 10,
         imagen: "assets/img/productos/GalletaJengibre.JPG",
         imagenes: [
             "assets/img/productos/GalletaJengibre2.png"
         ],
-        descripcion: "Galleta de jengibre con sabor intenso y textura crocante.",
+        descripcion: "4 onz de galleta de jengibre con sabor intenso y textura crocante.",
         disponible: true,
         destacado: false
     }, 
@@ -117,7 +117,7 @@
         categoria: "galletas",
         precio: 15,
         imagen: "assets/img/productos/NoImage.jpg",
-        descripcion: "Bolitas de colores con sabor dulce y textura suave.",
+        descripcion: "4 onz de Bolitas de colores con sabor dulce y textura suave.",
         disponible: true,
         destacado: false
     }, 
@@ -126,9 +126,9 @@
         id: "Empanada-Salada-10",
         nombre: "Empanada Salada",
         categoria: "reposteria",
-        precio: 20,
+        precio: 15,
         imagen: "assets/img/productos/NoImage.jpg",
-        descripcion: "Empanada salada con relleno delicioso y corteza crujiente.",
+        descripcion: "Bolsa de 2 Empanadas saladas con relleno delicioso y corteza crujiente.",
         disponible: true,
         destacado: false
     }, 
@@ -137,7 +137,7 @@
         id: "Empanada-Leche-11",
         nombre: "Empanada de Leche",
         categoria: "reposteria",
-        precio: 20,
+        precio: 10,
         imagen: "assets/img/productos/EmpanadaLeche.jpeg",
         imagenes: [
             "assets/img/productos/EmpanadaLeche2.jpeg",
@@ -152,7 +152,7 @@
         id: "Pie-Dulce-12",
         nombre: "Pie Dulce",
         categoria: "reposteria",
-        precio: 20,
+        precio: 15,
         imagen: "assets/img/productos/PieDulce.jpeg",
         descripcion: "Pie dulce con relleno delicioso y corteza crujiente. Rellenos: Manzana, Piña, Queso, Calabaza",
         disponible: true,
@@ -163,10 +163,10 @@
         id: "Rol-Canela-13",
         nombre: "Rol de Canela",
         categoria: "reposteria",
-        precio: 20,
+        precio: 0,
         imagen: "assets/img/productos/NoImage.jpg",
         descripcion: "Rol de corteza crujiente con relleno de canela.",
-        disponible: true,
+        disponible: false,
         destacado: false
     }, 
 
@@ -174,10 +174,10 @@
         id: "Pasteles-Hojaldre-14",
         nombre: "Pasteles de Hojaldre",
         categoria: "reposteria",
-        precio: 20,
+        precio: 0,
         imagen: "assets/img/productos/NoImage.jpg",
         descripcion: "Pasteles de hojaldre.",
-        disponible: true,
+        disponible: false,
         destacado: false
     }, 
 
@@ -185,10 +185,10 @@
         id: "Tartaletas-15",
         nombre: "Tartaletas",
         categoria: "reposteria",
-        precio: 20,
+        precio: 0,
         imagen: "assets/img/productos/NoImage.jpg",
         descripcion: "Tartaletas con relleno delicioso y corteza crujiente.",
-        disponible: true,
+        disponible: false,
         destacado: false
     }, 
 
@@ -196,10 +196,10 @@
         id: "Cupcakes-Decorados-16",
         nombre: "Cupcakes Decorados",
         categoria: "reposteria",
-        precio: 20,
+        precio: 0,
         imagen: "assets/img/productos/NoImage.jpg",
         descripcion: "Cupcakes decorados.",
-        disponible: true,
+        disponible: false,
         destacado: false
     }, 
 
@@ -207,10 +207,10 @@
         id: "Bomba-de-Chocolate-17",
         nombre: "Bomba de Chocolate",
         categoria: "temporada",
-        precio: 20,
+        precio: 0,
         imagen: "assets/img/productos/ChocoBomba.jpeg",
         descripcion: "Chocolate relleno de cocoa dulce y marshmallows.",
-        disponible: true,
+        disponible: false,
         destacado: false
     }, 
 
@@ -218,10 +218,10 @@
         id: "Barra-Con-Semillas-18",
         nombre: "Barra con Semillas",
         categoria: "reposteria",
-        precio: 20,
+        precio: 0,
         imagen: "assets/img/productos/BarraChocolate.jpeg",
         descripcion: "Barra de chocolate con semillas.",
-        disponible: true,
+        disponible: false,
         destacado: false
     }, 
 
@@ -229,7 +229,7 @@
         id: "Espumillas-19",
         nombre: "Espumillas de Menta",
         categoria: "reposteria",
-        precio: 20,
+        precio: 0,
         imagen: "assets/img/productos/Espumillas.jpeg",
         imagenes: [
             "assets/img/productos/Espumillas2.jpeg"
@@ -244,10 +244,10 @@
         id: "Corona-Reyes-20",
         nombre: "Corona de Reyes",
         categoria: "panaderia",
-        precio: 20,
+        precio: 0,
         imagen: "assets/img/productos/RoscaReyes.jpeg",
         descripcion: "Pan dulce tradicional para celebrar el Día de Reyes, con figura del Niño Jesus.",
-        disponible: true,
+        disponible: false,
         destacado: true
     }, 
 
@@ -255,34 +255,34 @@
         id: "Pan-de-Muerto-21",
         nombre: "Pan de Muerto",
         categoria: "panaderia",
-        precio: 20,
+        precio: 0,
         imagen: "assets/img/productos/PanMuerto.jpeg",
         descripcion: "Pan dulce tradicional con textura suave sabor a naranja cubierto de azúcar.",
-        disponible: true,
-        destacado: true
+        disponible: false,
+        destacado: false
     }, 
 
     {
         id: "Trensa-Rellena-Pollo-22",
         nombre: "Trenza Rellena de Pollo",
         categoria: "panaderia",
-        precio: 20,
+        precio: 0,
         imagen: "assets/img/productos/NoImage.jpg",
         descripcion: "Pan suave entrelazada rellena de pollo",
-        disponible: true,
-        destacado: true
+        disponible: false,
+        destacado: false
     }, 
 
     {
         id: "Champurrada-23",
         nombre: "Champurrada",
         categoria: "panaderia",
-        precio: 20,
+        precio: 10,
         imagen: "assets/img/productos/Champurrada.jpeg",
         imagenes: [
             "assets/img/productos/Champurrada2.jpeg"
         ],
-        descripcion: "Pan dulce tradicional, redondo, con consistencia tostada y crujiente.",
+        descripcion: "Bolsa de 5 unidades dePan dulce tradicional, redondo, con consistencia tostada y crujiente.",
         disponible: true,
         destacado: true
     }, 
@@ -291,42 +291,42 @@
         id: "Pan-en-Barra-24",
         nombre: "Pan en Barra",
         categoria: "panaderia",
-        precio: 20,
+        precio: 0,
         imagen: "assets/img/productos/NoImage.jpg",
         descripcion: "Pan blanco tradicional con forma alargada y cortes en diagonal.",
-        disponible: true,
-        destacado: true
+        disponible: false,
+        destacado: false
     }, 
 
     {
         id: "Pan-en-Molde-25",
         nombre: "Pan en Molde",
         categoria: "panaderia",
-        precio: 20,
+        precio: 0,
         imagen: "assets/img/productos/PanMolde.jpeg",
         descripcion: "Pan blanco tradicional con forma de molde y corteza crujiente.",
-        disponible: true,
-        destacado: true
+        disponible: false,
+        destacado: false
     }, 
 
     {
         id: "Volovanes-26",
         nombre: "Volovanes",
         categoria: "panaderia",
-        precio: 20,
+        precio: 0,
         imagen: "assets/img/productos/NoImage.jpg",
         descripcion: "Masa hojaldre horneada en recipiente cilindrico relleno de Carne.",
-        disponible: true,
-        destacado: true
+        disponible: false,
+        destacado: false
     }, 
 
     {
         id: "Pan-de-Zanahoria-27",
         nombre: "Pan de Zanahoria",
         categoria: "panaderia",
-        precio: 20,
+        precio: 10,
         imagen: "assets/img/productos/NoImage.jpg",
-        descripcion: "Pan esponjoso elaborado con zanahoria rallada y con textura humeda",
+        descripcion: "Porcion de Pan esponjoso elaborado con zanahoria rallada y con textura humeda",
         disponible: true,
         destacado: true
     }, 
@@ -335,63 +335,63 @@
         id: "Pan-de-Banano-28",
         nombre: "Pan de Banano",
         categoria: "panaderia",
-        precio: 20,
+        precio: 0,
         imagen: "assets/img/productos/PanBanano.jpeg",
         imagenes: [
             "assets/img/productos/PanBanano2.jpeg",
             "assets/img/productos/PanBanano3.jpeg"
         ],
         descripcion: "Pan esponjoso preparado con bananos frescos, Consistencia humeda, miga suave y dulzor natural.",
-        disponible: true,
-        destacado: true
+        disponible: false,
+        destacado: false
     }, 
 
     {
         id: "Pan-de-Calabaza-29",
         nombre: "Pan de Calabaza",
         categoria: "panaderia",
-        precio: 20,
+        precio: 0,
         imagen: "assets/img/productos/NoImage.jpg",
         descripcion: "Bizcocho casero, suave y humedo, preparado con calabaza fresca.",
-        disponible: true,
-        destacado: true
+        disponible: false,
+        destacado: false
     }, 
 
     {
         id: "Pan-Masa-Madre-30",
         nombre: "Pan de masa Madre",
         categoria: "panaderia",
-        precio: 20,
+        precio: 0,
         imagen: "assets/img/productos/NoImage.jpg",
         descripcion: "Pan artesanal elaborado con masa madre y un proceso de fermentacion de 24-48 horas.",
-        disponible: true,
-        destacado: true
+        disponible: false,
+        destacado: false
     }, 
 
     {
         id: "Casa-de-Jengibre-31",
         nombre: "Casa de Jengibre",
         categoria: "temporada",
-        precio: 20,
+        precio: 0,
         imagen: "assets/img/productos/CasaJengibre.png",
         imagenes: [
             "assets/img/productos/CasaJengibre2.png",
             "assets/img/productos/CasaJengibre3.jpeg"
         ],
         descripcion: "Casa elaborada con galleta de jengibre crocante y sabor intenso.",
-        disponible: true,
-        destacado: true
+        disponible: false,
+        destacado: false
     }, 
 
     {
         id: "Casa-de-Chocolate-32",
         nombre: "Casa de Chocolate",
         categoria: "temporada",
-        precio: 20,
+        precio: 0,
         imagen: "assets/img/productos/NoImage.jpg",
         descripcion: "Casa elaborada con chocolate.",
-        disponible: true,
-        destacado: true
+        disponible: false,
+        destacado: false
     }
 
 
