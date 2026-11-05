@@ -6,14 +6,14 @@
         categoria: "galletas",
         precio: 25,
         imagen: "assets/img/productos/Alfajores.png",
-        descripcion: "8 onz de Alfajores artesanal relleno con dulce de leche y textura suave.",
+        descripcion: "8 onz de suave galleta rellena de dulce de leche espolvoreada con azucar glass.",
         disponible: true,
         destacado: true
     },
     {
         id: "alfajor-03",
         nombre: "Alfajor Decorado",
-        categoria: "galletas",
+        categoria: "temporada",
         precio: 60,
         imagen: "assets/img/productos/AlfajoresNavidad.JPG",
         imagenes: [
@@ -21,7 +21,7 @@
             "assets/img/productos/AlfajorDecorado3.JPG",
             "assets/img/productos/AlfajorDecorado4.JPG"
         ],
-        descripcion: "8 unidades de Alfajor artesanal relleno con dulce de leche decorado de Navidad.",
+        descripcion: "8 unidades de Alfajor artesanal bañado en chocolate decorado de Navidad.",
         disponible: true,
         destacado: true
     },
@@ -31,7 +31,7 @@
         categoria: "galletas",
         precio: 50,
         imagen: "assets/img/productos/AlfajoresChocolate.png",
-        descripcion: "8 onz de Alfajor húmedo y cubierto con chocolate para un sabor intenso y balanceado.",
+        descripcion: "8 onz de Alfajor artesanal bañado en chocolate.",
         disponible: true,
         destacado: false
     },
@@ -45,7 +45,7 @@
             "assets/img/productos/CoronaBollos2.JPG",
             "assets/img/productos/CoronaBollos3.JPG"
         ],
-        descripcion: "Corona de bollos suave y aromática, ideal para compartir en la mesa.",
+        descripcion: "Corona de bollos de pan blanco con ajo, cebolla, pimiento y romero fresco. Ideal para compartir en familia.",
         disponible: true,
         destacado: true
     },
@@ -59,7 +59,7 @@
             "assets/img/productos/ZepelinNavideño2.JPG",
             "assets/img/productos/ZepelinNavideño3.JPG"
         ],
-        descripcion: "Zepelin navideño tradicional con sabor festivo y textura esponjosa.",
+        descripcion: "Zepelin navideño elaborado con especias de temporada, fruta cristalizada, pasas y almendra.",
         disponible: true,
         destacado: true
     },
@@ -68,14 +68,18 @@
         id: "galleta-avena-05",
         nombre: "Galleta de Avena",
         categoria: "galletas",
-        precio: 0,
-        imagen: "assets/img/productos/NoImage.jpg",
-        descripcion: "Galleta de avena nutriente y deliciosa.",
-        disponible: false,
+        precio: 25,
+        imagen: "assets/img/productos/GalletaAvena1.jpeg",
+        imagenes: [
+            "assets/img/productos/GalletaAvena2.jpeg",
+            "assets/img/productos/GalletaAvena3.jpeg"
+        ],
+        descripcion: "Galleta elaborada con hojuelas de avena y canela. Bolsa de 6 unidades.",
+        disponible: true,
         destacado: false
     }, 
 
-    {
+    /*{
         id: "polovorosa-06",
         nombre: "Polovorosa",
         categoria: "galletas",
@@ -84,7 +88,7 @@
         descripcion: "Polovorosa deliciosa y textura suave.",
         disponible: true,
         destacado: false
-    }, 
+    }, */ 
 
     {
         id: "galleta-newyork-07",
@@ -92,7 +96,7 @@
         categoria: "galletas",
         precio: 40,
         imagen: "assets/img/productos/GalletaNewYork.jpeg",
-        descripcion: "Bolsa de 6 unidades de galleta tipo New York con textura esponjosa y sabor delicioso.",
+        descripcion: "Bolsa de 6 unidades de galleta tipo New York con exterior crujiente y un interior suave.",
         disponible: true,
         destacado: false
     }, 
@@ -114,10 +118,10 @@
     {
         id: "galleta-bolita-colores-09",
         nombre: "Bolitas de Colores",
-        categoria: "galletas",
-        precio: 15,
-        imagen: "assets/img/productos/NoImage.jpg",
-        descripcion: "4 onz de Bolitas de colores con sabor dulce y textura suave.",
+        categoria: "temporada",
+        precio: 20,
+        imagen: "assets/img/productos/BolitaColores.jpeg",
+        descripcion: "Galleta elaborada con leche condensada cubierta de anicillos. Bolsa de 4 onz.",
         disponible: true,
         destacado: false
     }, 
@@ -147,7 +151,7 @@
             "assets/img/productos/EmpanadaLeche2.jpeg",
             "assets/img/productos/EmpanadaLeche3.jpeg"
             ],
-        descripcion: "Empanada de leche con relleno cremoso y corteza crujiente.",
+        descripcion: "Elaborada con harina de arroz y rellena de crema pastelera.",
         disponible: true,
         destacado: true
     }, 
@@ -163,6 +167,7 @@
         destacado: false
     }, 
 
+    /*
     {
         id: "Rol-Canela-13",
         nombre: "Rol de Canela",
@@ -172,8 +177,9 @@
         descripcion: "Rol de corteza crujiente con relleno de canela.",
         disponible: false,
         destacado: false
-    }, 
+    }, */
 
+    /*
     {
         id: "Pasteles-Hojaldre-14",
         nombre: "Pasteles de Hojaldre",
@@ -183,7 +189,7 @@
         descripcion: "Pasteles de hojaldre.",
         disponible: false,
         destacado: false
-    }, 
+    }, */
 
     {
         id: "Tartaletas-Manzana-15",
@@ -195,7 +201,7 @@
             "assets/img/productos/TartaletaManzana2.jpeg",
             "assets/img/productos/TartaletaManzana3.jpeg"
         ],
-        descripcion: "Tartaletas con relleno de manzana y corteza crujiente.",
+        descripcion: "Base crujiente rellena de crema pastelera decorada con manzana.",
         disponible: true,
         destacado: false
     }, 
@@ -210,7 +216,7 @@
             "assets/img/productos/TartaletaFresa2.jpeg",
             "assets/img/productos/TartaletaFresa3.jpeg"
         ],
-        descripcion: "Tartaletas con relleno de fresa y corteza crujiente.",
+        descripcion: "Base crujiente rellena de crema pastelera decorada con fresa.",
         disponible: true,
         destacado: false
     },
@@ -262,7 +268,7 @@
             "assets/img/productos/Espumillas2.jpeg"
             
         ],
-        descripcion: "100 unidades de merengue frances con sabor a menta",
+        descripcion: "100 unidades de merengue francés con sabor a menta",
         disponible: true,
         destacado: true
     },
@@ -302,7 +308,7 @@
             "assets/img/productos/PanMuertoRelleno2.jpeg",
             "assets/img/productos/PanMuertoRelleno3.jpeg"
         ],
-        descripcion: "Pan dulce tradicional con textura suave sabor a naranja cubierto de azúcar.",
+        descripcion: "Pan dulce tradicional con textura suave sabor a naranja cubierto de azúcar y relleno de crema pastelera.",
         disponible: true,
         destacado: false
     }, 
@@ -317,7 +323,7 @@
             "assets/img/productos/PanMuertoChocolate2.jpeg",
             "assets/img/productos/PanMuertoChocolate3.jpeg"
         ],
-        descripcion: "Pan dulce tradicional con textura suave sabor a naranja cubierto de azúcar.",
+        descripcion: "Pan dulce tradicional con textura suave sabor a naranja bañado en chocolate.",
         disponible: true,
         destacado: false
     }, 
@@ -361,7 +367,7 @@
             "assets/img/productos/PanBarra2.jpeg",
             "assets/img/productos/PanBarra3.jpeg"
         ],
-        descripcion: "Bolsa de 4 unidades de pan blanco tradicional con forma alargada y cortes en diagonal.",
+        descripcion: "Bolsa de 3 unidades de pan blanco tradicional con forma alargada y cortes en diagonal.",
         disponible: true,
         destacado: false
     }, 
@@ -372,7 +378,7 @@
         categoria: "panaderia",
         precio: 30,
         imagen: "assets/img/productos/PanMolde.jpeg",
-        descripcion: "Pan blanco tradicional con forma de molde y corteza crujiente.",
+        descripcion: "Pan blanco tradicional con diferentes especias.",
         disponible: true,
         destacado: false
     }, 
@@ -387,11 +393,12 @@
             "assets/img/productos/Volovanes2.jpeg",
             "assets/img/productos/Volovanes3.jpeg"
         ],
-        descripcion: "Masa hojaldre horneada en recipiente cilindrico relleno de Carne.",
+        descripcion: "Masa hojaldre rellena de Carne.",
         disponible: true,
         destacado: false
     }, 
 
+    /*
     {
         id: "Pan-de-Zanahoria-27",
         nombre: "Pan de Zanahoria",
@@ -401,7 +408,7 @@
         descripcion: "Porcion de Pan esponjoso elaborado con zanahoria rallada y con textura humeda",
         disponible: false,
         destacado: true
-    }, 
+    }, */
 
     {
         id: "Pan-de-Banano-28",
@@ -422,13 +429,18 @@
         id: "Pan-de-Calabaza-29",
         nombre: "Pan de Calabaza",
         categoria: "panaderia",
-        precio: 150,
-        imagen: "assets/img/productos/NoImage.jpg",
-        descripcion: "Bizcocho casero, suave y humedo, preparado con calabaza fresca.",
+        precio: 200,
+        imagen: "assets/img/productos/PanCalabaza1.jpeg",
+        imagenes: [
+            "assets/img/productos/PanCalabaza2.jpeg",
+            "assets/img/productos/PanCalabaza3.jpeg"
+        ],
+        descripcion: "Pan de 10 porciones, esponjoso preparado con calabaza enlatada, miga suave y dulzor natural.",
         disponible: true,
         destacado: false
     }, 
 
+    /*
     {
         id: "Pan-Masa-Madre-30",
         nombre: "Pan de masa Madre",
@@ -438,8 +450,9 @@
         descripcion: "Pan artesanal elaborado con masa madre y un proceso de fermentacion de 24-48 horas.",
         disponible: false,
         destacado: false
-    }, 
+    }, */
 
+    /*
     {
         id: "Casa-de-Jengibre-31",
         nombre: "Casa de Jengibre",
@@ -453,7 +466,7 @@
         descripcion: "Casa elaborada con galleta de jengibre crocante y sabor intenso.",
         disponible: false,
         destacado: false
-    }, 
+    }, */
 
     {
         id: "Casa-de-Chocolate-32",
@@ -465,13 +478,13 @@
             "assets/img/productos/ChocoCasaNavidad2.jpeg"            
         ],
         descripcion: "Casa elaborada con chocolate, rellena de cocoa y marshmallows",
-        disponible: false,
+        disponible: true,
         destacado: false
     },
 
     {
-        id: "Arbol-Navidad-Chocolate-35",
-        nombre: "Arbol de Navidad de Chocolate",
+        id: "Árbol-Navidad-Chocolate-35",
+        nombre: "Árbol de Navidad de Chocolate",
         categoria: "temporada",
         precio: 45,
         imagen: "assets/img/productos/ChocoArbolNavidad1.jpeg",
@@ -479,7 +492,7 @@
             "assets/img/productos/ChocoArbolNavidad2.jpeg",
             "assets/img/productos/ChocoArbolNavidad3.jpeg"
         ],
-        descripcion: "Arbol de navidad elaborado con chocolate.",
+        descripcion: "Árbol de navidad elaborado con chocolate y semillas tostadas.",
         disponible: true,
         destacado: false
     }
