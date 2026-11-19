@@ -1,4 +1,4 @@
-﻿const productos = [
+const productos = [
     
     {
         id: "alfajor-01",
@@ -330,7 +330,7 @@
 
     {
         id: "Trensa-Rellena-Pollo-22",
-        nombre: "Trenza Rellena de Pollo",
+        nombre: "Trenza Rellena",
         categoria: "panaderia",
         precio: 10,
         imagen: "assets/img/productos/TrenzaRellena1.jpeg",
